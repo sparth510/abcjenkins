@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('build-deploy'){
             steps{
-                fun(${REPO_PATH},${APP_NAME})   
+                function(${REPO_PATH},${APP_NAME})  
             }
         }
     }
